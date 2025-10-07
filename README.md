@@ -1,6 +1,15 @@
 # Contacts Directory Application
 
 A modern, responsive contacts application built with React and Vite that fetches data from the JSONPlaceholder API. Features beautiful gradients, smooth animations, and a professional design.
+## Features
+
+- **Responsive Design**: Adapts seamlessly to desktop and mobile devices.
+- **Search Functionality**: Filter contacts by name, phone, email, or company name.
+- **Pagination**: Displays 8 contacts per page with simple Previous/Next navigation.
+- **Smooth Animations**: Powered by Framer Motion for delightful transitions.
+- **Error Handling**: Displays user-friendly error messages with retry options.
+- **Loading States**: Shows a loading grid while fetching data.
+- **Beautiful UI**: Gradient backgrounds and Lucide icons for a polished look.
 
 ## Technologies Used
 
@@ -16,13 +25,18 @@ A modern, responsive contacts application built with React and Vite that fetches
 
 Before running this application, make sure you have the following installed:
 
-- Node.js (version 16 or higher)
-- npm or yarn package manager
+- **Node.js**: Version 16 or higher.
+- **npm** or **yarn**: Package manager for installing dependencies.
+- A modern web browser (e.g., Chrome, Firefox, Edge).
 
 ## Installation & Setup
+Follow these steps to set up and run the application locally:
 
 1. **Clone the repository** (if applicable) or ensure all files are in your project directory
-
+   ```bash
+   git clone https://github.com/AleenaEl/Contact-App.git
+   cd Contact-App
+   
 2. **Install dependencies**
    ```bash
    npm install
@@ -32,8 +46,8 @@ Before running this application, make sure you have the following installed:
    yarn install
    ```
 
-3. **Install required packages**
-   The application uses the following main dependencies:
+3. **Verify Installed Packages**: The application relies on the following key dependencies. They are installed automatically with the above command, but you can ensure they are present:
+  
    ```bash
    npm install react react-dom vite @vitejs/plugin-react
    npm install tailwindcss @tailwindcss/typography
